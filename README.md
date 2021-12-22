@@ -19,14 +19,12 @@ python p_eval.py models/bd_net.h5 data/cl/valid.h5 data/bd/valid.h5
 ## For the second method:
 usage:
 ```shell script 
-cd lab3
 python p_eval.py model_filename data_filename img_filename
 # output: a number
 ```
 
 example: 
 ```shell script
-cd lab3
-python p_eval.py models/bd_net.h5 data/cl/valid.h5 img.png
+python p_eval.py models/bd_net.h5 data/valid.h5 img.png
 # output: 1283
 ```
